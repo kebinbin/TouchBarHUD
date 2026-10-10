@@ -1,0 +1,24 @@
+name: Verify
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  macos:
+    runs-on: macos-15-intel
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Build and verify signature
+        run: ./build.sh
+      - name: Synthetic regression checks
+        run: ./scripts/test.sh --headless
+      - name: Static analysis
+        run: ./scripts/analyze.sh
+      - name: Script syntax and whitespace
+        run: |
+          zsh -n build.sh scripts/*.sh
+          git diff --check
