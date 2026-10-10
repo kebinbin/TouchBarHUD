@@ -1,10 +1,12 @@
-# TouchBar HUD
+<p align="center"><img src="Resources/Logo.png" alt="TouchBar HUD logo" width="96"></p>
 
-<img src="Resources/Logo.png" alt="TouchBar HUD logo" width="96">
+<h1 align="center">TouchBar HUD</h1>
 
-[![Actual Touch Bar output showing Chrome controls and the Control Strip](docs/TouchBar-screenshot.png)](docs/TouchBar-screenshot.png)
+<h3 align="center">Has your MacBook's Touch Bar backlight stopped working? TouchBar HUD mirrors it onto your MacBook's main display so you can use it again.</h3>
 
-*Actual Touch Bar output captured on a MacBookPro15,1.*
+<p align="center"><a href="docs/TouchBar-screenshot.png"><picture><source media="(prefers-reduced-motion: reduce)" srcset="docs/TouchBar-framed.png"><img src="docs/TouchBar-demo.gif" alt="TouchBar HUD mirroring Chrome controls and a brightness adjustment" width="900"></picture></a></p>
+
+*Real Touch Bar recording captured on a MacBookPro15,1. Click the animation for the original still capture.*
 
 TouchBar HUD mirrors the current macOS Touch Bar at the bottom of the built-in display. It is intended for a Touch Bar whose touch input still works but whose backlight or visible panel does not.
 

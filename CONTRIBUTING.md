@@ -28,6 +28,10 @@ The simple mark represents a display mirroring a Touch Bar. `Resources/Logo.svg`
 
 To change the geometry or colors consistently, edit `scripts/generate-icons.m`, then run `./scripts/generate-icons.sh`. Generated assets are committed so ordinary builds do not need to regenerate artwork. Rendering uses native Core Graphics and `iconutil`, without extra dependencies.
 
+The README shows a real Touch Bar capture in `docs/TouchBar-screenshot.png`. Its padded frame is generated with `./scripts/frame-touchbar.sh`; keep the original capture unchanged when adjusting the frame.
+
+The README animation in `docs/TouchBar-demo.gif` was captured from the HUD's live Touch Bar stream. It shows Chrome, a real brightness adjustment, and the return to Chrome. Its dark frame uses the same renderer as the still image. Review all frames for private content before replacing it; source frames are intentionally not stored in the repository.
+
 ## Checks
 
 ```sh
