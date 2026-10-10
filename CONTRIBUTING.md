@@ -28,8 +28,6 @@ The simple mark represents a display mirroring a Touch Bar. `Resources/Logo.svg`
 
 To change the geometry or colors consistently, edit `scripts/generate-icons.m`, then run `./scripts/generate-icons.sh`. Generated assets are committed so ordinary builds do not need to regenerate artwork. Rendering uses native Core Graphics and `iconutil`, without extra dependencies.
 
-The README Touch Bar image is an illustrative sample with generic controls. To change it, edit `scripts/generate-preview.m`, then run `./scripts/generate-preview.sh`. Do not publish captures of a user's live Touch Bar without reviewing their contents first.
-
 ## Checks
 
 ```sh
