@@ -2,6 +2,10 @@
 
 <img src="Resources/Logo.png" alt="TouchBar HUD logo" width="96">
 
+[![Actual Touch Bar output showing Chrome controls and the Control Strip](docs/TouchBar-screenshot.png)](docs/TouchBar-screenshot.png)
+
+*Actual Touch Bar output captured on a MacBookPro15,1.*
+
 TouchBar HUD mirrors the current macOS Touch Bar at the bottom of the built-in display. It is intended for a Touch Bar whose touch input still works but whose backlight or visible panel does not.
 
 A small Objective-C menu-bar app for Intel MacBook Pro models with a physical Touch Bar, targeting macOS 13 or later. Version 0.5.2 is a beta tested on a MacBookPro15,1 with macOS 15.7.9; see [verification results and remaining hardware checks](docs/VERIFICATION.md).
